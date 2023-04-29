@@ -4,15 +4,10 @@ import FriendItem from './FriendListItem';
 const FriendList = ({ friends }) => {
   return (
     <ul className="friend-list">
-      {friends.map(friend => {
+      {friends.map(({ id, avatar, name, isOnline }) => {
         return (
-          <li key={friend.id} className="item">
-            <FriendItem
-              avatar={friend.avatar}
-              name={friend.name}
-              isOnline={friend.isOnline}
-              id={friend.id}
-            />
+          <li key={id} className="item">
+            <FriendItem avatar={avatar} name={name} isOnline={isOnline} />
           </li>
         );
       })}
@@ -27,5 +22,5 @@ FriendList.propTypes = {
     })
   ),
 };
-// id: propTypes.number.isRequired
+
 export default FriendList;
