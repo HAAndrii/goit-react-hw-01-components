@@ -1,0 +1,16 @@
+.transaction {
+  margin: 15px auto;
+  width: 600px;
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 1px 10px rgba(0, 0, 0, 0.14),
+    0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.head {
+  background-color: #c2c1c1;
+}
+
+.row {
+  text-align: center;
+}
