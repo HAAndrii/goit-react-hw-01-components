@@ -1,0 +1,44 @@
+.transaction {
+  margin: 15px auto;
+  width: 600px;
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 1px 10px rgba(0, 0, 0, 0.14),
+    0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #c2c1c1;
+  padding: 10px;
+
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.status {
+  border-radius: 15px;
+  display: block;
+  height: 10px;
+  left: 25%;
+  position: absolute;
+  top: 45%;
+  width: 10px;
+  background-color: red;
+}
+
+.status_onLine {
+  background-color: green;
+}
+
+.avatar {
+  margin-right: 13px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+}
